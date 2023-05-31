@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Trivial Wedding</string>
+
+    <string name="wrong_sequence">Meeec</string>
+    <string name="your_turn">Tu turno...</string>
+    <string name="correct_sequence">Correcto!!!</string>
+    <string name="watch_sequence">Memoriza y repite luego...</string>
+
+    <string name="remaining_attempts">remaining_attempts</string>
+    <string name="letter_already_guessed">letter_already_guessed</string>
+    <string name="invalid_letter">invalid_letter</string>
+    <string name="you_win">you_win</string>
+    <string name="you_lose">you_lose</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".simon.SimonGameActivity">
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="30dp"/>
+
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_below="@id/statusTextView"
+            android:layout_marginTop="50dp"
+        >
+
+
+        <Button
+            android:id="@+id/redButton"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="#BACC1D1D"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/greenButton"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="#33AE38"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/blueButton"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="#5065D8"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/yellowButton"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="#B1A42D"
+            android:text=""/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@id/gridLayout"
+        android:layout_marginTop="40dp"
+        android:text="Comenzar"/>
+</RelativeLayout>
